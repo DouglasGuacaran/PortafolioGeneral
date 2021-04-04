@@ -1,0 +1,36 @@
+.header {
+  height: 150px;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+
+  .img-folder {
+    margin-left: 20px;
+
+    &__img {
+      width: 20%;
+    }
+  }
+
+  .menu {
+    &__list {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__item a {
+      padding: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      color: darkolivegreen;
+    }
+
+    &__item a:hover {
+      color: darkgreen;
+    }
+  }
+}
