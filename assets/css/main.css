@@ -189,4 +189,44 @@
 .header .menu__item a:hover {
   color: darkgreen;
 }
+
+@media (min-width: 900px) {
+  .section {
+    width: 100%;
+  }
+  .section .card__img {
+    width: 200px;
+    height: 200px;
+  }
+  .section .card__text {
+    width: 90%;
+    text-align: left;
+  }
+  .galery__img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .section {
+    width: 70%;
+  }
+  .section .card__img {
+    width: 280px;
+    height: 280px;
+  }
+  .section .card__text {
+    width: 80%;
+    text-align: left;
+  }
+  .galery__img {
+    width: 280px;
+    height: 280px;
+  }
+  .footer {
+    height: 250px;
+    font-size: smaller;
+  }
+}
 /*# sourceMappingURL=main.css.map */
